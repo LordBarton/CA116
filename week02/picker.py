@@ -1,0 +1,7 @@
+#!/usr/bin/env python3
+
+a = int(input())
+b = int(input())
+c = int(input())
+
+print(b * (c % 2) + a * ((c - (c % 2)) // c))
